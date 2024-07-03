@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+}
+
+.icon{
+  font-size: 18px;
+  color: #000000;
+  display: block;
+}
+
+.baricons a{
+  font-size: 15px;
+  color: #000000;
+  padding: 15px;
+
+}
+
+.menu ul{
+  display: flex;
+  list-style: none;
+  padding:0;
+  margin: 0;
+}
+
+.menu li{
+  padding: 13px;
+}
+
+.menu a{
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.menubar{
+  background: rgba(251, 251, 252, 0.3);
+}
+
+.mobile-icon{
+  display: none;
+}
+
+.page1{
+  margin-top:50px;
+}
+
+.page101 h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 53px;
+}
+
+.page101 h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+
+}
+.page101{
+  text-align: center;
+}
+
+.btn{
+  color: #0066CC;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+
+}
+
+.page102{
+  text-align: center;
+  margin-top: 80px;
+  padding: 0 0 100px 0;
+}
+
+.page2{
+  background: #000;
+
+}
+
+.page201 h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 53px;
+  color: #F5F5F7;
+  padding: 50px 0 0 0;
+}
+
+.page201 h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+  color: #F5F5F7;
+
+}
+.page201{
+  text-align: center;
+}
+
+.page202{
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.page301 h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 53px;
+  padding: 50px 0 0 0;
+}
+
+.page301 h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 27px;
+
+}
+.page301{
+  text-align: center;
+}
+
+.page302{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.page4{
+  display: flex;
+  justify-content: space-around;
+}
+
+.page401{
+  width:48%;
+}
+
+.page402{
+  width:48%;
+}
+
+.page4011 h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  padding: 50px 0 0 0;
+}
+
+.page4011 h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+
+}
+
+.rgap{
+  font-size: 35px;
+}
+.page4011{
+  text-align: center;
+}
+
+.shop{
+  font-size: 18px;
+}
+
+.page4012{
+  text-align: center;
+}
+
+.page402{
+  text-align: center;
+  background: #000;
+}
+
+.page4021 h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  padding: 50px 0 0 0;
+}
+
+.page4021 h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #CA2127;
+
+}
+
+.page4021 h3{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+
+.page5{
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.page501{
+  width: 50%;
+  margin: auto;
+}
+
+.tiny-indicators button{
+  width:10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+
+}
+
+.page6{
+  width: 70%;
+  margin: auto;
+
+}
+
+.parafont{
+  margin-top: 20px;
+  font-size: 13px;
+  color: #77777C;
+}
+
+
+.pextra{
+  display: flex;
+
+}
+
+.lastword{
+  text-align: right;
+}
+
+.foot{
+  margin-top: 20px;
+  background-color: #F5F5F7;
+}
+
+
+
+.lastpara::after{
+    content:'';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #000;
+}

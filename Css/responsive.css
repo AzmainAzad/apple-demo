@@ -1,0 +1,65 @@
+@media(max-width: 1200px){
+   .menu a{
+     font-size: 12px;
+
+   }
+
+   .menu li{
+     padding: 10px;
+   }
+}
+
+@media(max-width: 991px){
+
+   .page4{
+     flex-flow: wrap;
+   }
+
+   .page401{
+     width: 100%;
+   }
+
+   .page402{
+     width: 100%;
+   }
+
+   .menu{
+     display:none;
+   }
+
+  .mobile-icon{
+    display: block;
+    padding:20px 0 0 0;
+
+  }
+
+   .baricons{
+     text-align: right;
+  }
+
+   .icon{
+     margin-top: 20px;
+     text-align: center;
+   }
+
+   .pextra{
+     flex-flow: wrap;
+   }
+
+   .fp{
+     width:100%;
+   }
+
+}
+
+@media(max-width: 770px){
+
+
+   .menu ul{
+     display: block;
+   }
+
+
+  }
+
+}
